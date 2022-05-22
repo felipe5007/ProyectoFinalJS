@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <img src="img/logo.jpg" id="logo">
+                </div>
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/cart.png" id="img-carrito">
+                            <div id="carrito">
+
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th>Cantidad</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+
+                                <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="six columns">
+                    <div class="contenido-hero">
+                        <h2>Aprende algo nuevo</h2>
+                        <p>Todos los cursos innacesibles ahora accesibles</p>
+                        <form action="#" id="busqueda" method="post" class="formulario">
+                            <input class="u-full-width" type="text" placeholder="¿Que te gustaría Aprender?"
+                                id="buscador">
+                            <input type="submit" id="submit-buscador" class="submit-buscador">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icono icono1">
+                    <p>20,000 Cursos en línea <br>
+                        Explora los temas más recientes</p>
+                </div>
+                <div class="four columns icono icono2">
+                    <p>Instructores Expertos <br>
+                        Aprende con distintos estilos</p>
+                </div>
+                <div class="four columns icono icono3">
+                    <a href="clima.html"><p>¿Quieres saber el clima?<br>
+                        Hazme CLICK</p></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lista-cursos" class="container">
+        <h1 id="encabezado" class="encabezado">Cursos En Línea</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso1.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Teoria de los acronimos</h4>
+                        <p>Creed Bratton</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$60.000 <span class="u-pull-right ">$20.000</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso2.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Abogado en 1 semana</h4>
+                        <p>Saul Goodman</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$110.000 <span class="u-pull-right ">$45.000</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso3.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Inmersión Criminalistica</h4>
+                        <p>Everett Backstrom</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$90.000 <span class="u-pull-right ">$30.000</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso4.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Dibujo de la naturaleza viva</h4>
+                        <p>Sam Gadner</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$60.000 <span class="u-pull-right ">$20.000</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso5.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Limpieza y simetría</h4>
+                        <p>Adrian Monk</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$133.990 <span class="u-pull-right ">$100.000</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso6.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Psicología Juridica</h4>
+                        <p>Jason Bull</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200.000 <span class="u-pull-right ">$130.000</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso7.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Gastronomia Canibal</h4>
+                        <p>Hannibal Lecter</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$300.000 <span class="u-pull-right ">$140.000</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso8.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Percepción del pequeño detalle</h4>
+                        <p>Sherlock Holmes</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$300.000 <span class="u-pull-right ">$90.000</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso9.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Tentación y equilibrio</h4>
+                        <p>Dexter Morgan</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$160.000 <span class="u-pull-right ">$105.000</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso10.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Antropología Criminal</h4>
+                        <p>Temperance Brennan</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200.000 <span class="u-pull-right ">$80.000</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                            data-id="10">Agregar Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso11.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Ambiente laboral divertido</h4>
+                        <p>Michael Scott</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$150.000 <span class="u-pull-right ">$85.000</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                            data-id="11">Agregar Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso12.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Supervivencia Apocaliptica</h4>
+                        <p>Morgan Jones</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$210.000 <span class="u-pull-right ">$125.000</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                            data-id="12">Agregar Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+        </div>
+        <!--.row-->
+    </div>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <nav id="principal" class="menu">
+                        <a class="enlace" href="#">Para tu Negocio</a>
+                        <a class="enlace" href="#">Conviertete en Instructor</a>
+                        <a class="enlace" href="#">Aplicaciones Móviles</a>
+                        <a class="enlace" href="#">Soporte</a>
+                        <a class="enlace" href="#">Temas</a>
+                    </nav>
+                </div>
+                <div class="four columns">
+                    <nav id="secundaria" class="menu">
+                        <a class="enlace" href="#">¿Quienes Somos?</a>
+                        <a class="enlace" href="#">Empleo</a>
+                        <a class="enlace" href="#">Blog</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/carrito.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+</body>
+
+</html>
